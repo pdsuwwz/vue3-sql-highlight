@@ -9,7 +9,7 @@ const htmlPlugin = () => {
     transformIndexHtml(html) {
       return html.replace(
         /<title>(.*?)<\/title>/,
-        '<title>MVP QuickStart</title>'
+        '<title>Vue3 SQL Highlight</title>'
       )
     }
   }
