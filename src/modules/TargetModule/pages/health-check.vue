@@ -13,7 +13,7 @@ import {
  * Target Module 健康检查
  */
 export default defineComponent({
-  name: 'health-check'
+  name: 'HealthCheck'
 })
 
 </script>

@@ -19,7 +19,7 @@
           v-model="userData.username"
           type="text"
           :prefix-icon="User"
-          placeholder="用户名"
+          placeholder="用户名随便填"
         />
       </el-form-item>
       <el-form-item prop="password">
@@ -28,7 +28,7 @@
           type="password"
           show-password
           :prefix-icon="Lock"
-          placeholder="密码"
+          placeholder="密码随便填"
         />
       </el-form-item>
       <el-form-item style="width: 100%;">

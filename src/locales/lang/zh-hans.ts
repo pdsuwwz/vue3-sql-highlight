@@ -8,7 +8,7 @@ export default {
     empty: '无可用数据'
   },
   login: {
-    welcomeLogin: 'MVP QuickStart 欢迎登录',
+    welcomeLogin: 'Vue3 SQL Highlight 欢迎登录',
     signin: '登录',
     signout: '退出登录'
   }
