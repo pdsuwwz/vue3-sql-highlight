@@ -40,7 +40,7 @@ const useUserAccount = defineStore('UserAccount', {
       this.locale = data.locale
     },
     async login(data) {
-      await sleep(1000)
+      await sleep(100)
       const res = await UserAccountAPI.login(data)
       return this.filterResponse(res, null, () => {})
     },
